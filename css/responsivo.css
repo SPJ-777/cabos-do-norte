@@ -1,0 +1,509 @@
+@media(min-width: 320px) and (max-width:375px) {
+    .header {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu {
+        display: block;
+        margin-right: 20px;
+    }
+
+    .logo img {
+        width: 250px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .titulo-hero {
+        width: 90%;
+        text-align: center;
+        margin: 1.5rem;
+    }
+
+    .controle img {
+        width: 100%;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 6rem;
+        flex-wrap: wrap;
+    }
+
+    .btn-1 {
+        margin: 1.5rem 1rem;
+    }
+
+    .btn-2 {
+        margin: 1.5rem 1rem;
+    }
+
+    .btn-3 {
+        margin: 1.5rem 1rem;
+    }
+
+    .btn-1 span {
+        padding: 0 0.4rem;
+    }
+
+    .informacoes {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .descricao {
+        width: 75%;
+        text-align: center;
+        font-size: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .descricao h2 {
+        font-size: 1.6em;
+    }
+
+    .controlePersonalizado img {
+        width: 100%;
+    }
+
+    .titulo-sugestoes {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .sugestoes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .sugestoes h3{
+        font-size: 1.3em;
+    }
+
+    .sugestoes p{
+        font-size: 1.1em;
+    }
+
+    .suporte {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    .textSuporte {
+        width: 100%;
+        font-size: 1.1em;
+    }
+
+    .textSuporte p {
+        font-size: 1.1em;
+    }
+
+    .textSuporte span {
+        font-size: 1.2em;
+    }
+
+    .imagemSuporte {
+        width: 70%;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+        align-items: center;
+    }
+
+    .escritorio h3{
+        font-size: 1.3em;
+    }
+
+    .escritorio p {
+        font-size: 1.2em;
+    }
+
+    .footer span{
+        font-size: 1.2em;
+    }
+
+    .social h3{
+        font-size: 1.4em;
+        margin: 2rem 0;
+    }
+
+    .social i{
+        font-size: 2.2em;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+
+    .logo img {
+        width: 270px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .titulo-hero {
+        width: 90%;
+        margin-left: 1.4rem;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .btn-1 {
+        margin: 1.5rem 1rem;
+    }
+
+    .btn-2 {
+        margin: 1.5rem 1rem;
+    }
+
+    .btn-3 {
+        margin: 1.5rem 1rem;
+    }
+
+    .btn-1 span {
+        padding: 0 0.4rem;
+    }
+
+    .informacoes{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .descricao h2{
+        font-size: 2.3em;
+        text-align: center;
+    }
+
+    .descricao{
+        width: 80%;
+        font-size: 1.2em;
+    }
+
+    .titulo-sugestoes{
+        font-size: 1.4em;
+        text-align: center;
+    }
+
+    .sugestoes h3{
+        font-size: 1.4em;
+    }
+
+    .sugestoes p{
+        font-size: 1.2em;
+    }
+
+    .button-2 a{
+        font-size: 1.3em;
+    }
+
+    .suporte{
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .imagemSuporte{
+        width: 300px;
+    }
+
+    .textSuporte{
+        width: 90%;
+        font-size: 1.2em;
+    }
+
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .escritorio h3{
+        font-size: 1.5em;
+    }
+
+    .escritorio p{
+        font-size: 1.3em;
+        flex-wrap: wrap;
+    }
+
+    .footer span{
+        font-size: 1.2em;
+    }
+
+    .social h3{
+        font-size: 1.5em;
+        margin: 2rem 0;
+    }
+
+    .social i{
+        font-size: 2.3em;
+        margin: 0 1.5rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width:768px){
+
+    .logo img{
+        width: 310px;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    .titulo-hero{
+        margin-left: 0.4rem;
+    }
+
+    .btn-1{
+        margin: 0 1.5rem;
+    }
+
+    .btn-1 span{
+        margin: 0 0.5rem;
+    }
+
+    .btn-2{
+        margin: 3rem 1.5rem;
+    }
+
+    .btn-3{
+        margin: 0 1.5rem;
+    }
+
+    .informacoes{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .descricao h2{ 
+        font-size: 2.4em;
+    }
+
+    .descricao{
+        width: 70%;
+        font-size: 1.2em;
+    }
+
+    .titulo-sugestoes{
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .sugestoes h3{
+        font-size: 1.3em;
+    }
+
+    .sugestoes p{
+        font-size: 1.2em;
+    }
+
+    .suporte{
+        width: 100%;
+    }
+
+    .textSuporte{
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer span{
+        font-size: 1.3em;
+    }
+
+    .escritorio h3{
+        font-size: 1.7em;
+    }
+
+    .escritorio p{
+        font-size: 1.3em;
+        flex-wrap: wrap;
+    }
+
+    .social h3{
+        font-size: 1.7em;
+        margin: 1.5rem 0;
+    }
+
+    .social i{
+        margin: 0 1.5rem;
+        font-size: 2.4em;
+    }
+
+}
+
+@media (min-width: 767px) and (max-width: 1024px){
+
+    .logo img{
+        width: 420px;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .nav ul li{
+        font-size: 2.4em;
+    }
+
+    .button{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .btn-1{
+        margin: 0;
+    }
+
+    .btn-2{
+        margin: 0;
+    }
+
+    .btn-3{
+        margin: 0;
+    }
+
+    .descricao h2{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .descricao{
+        font-size: 1.7em;
+    }
+
+    .titulo-sugestoes{
+        font-size: 1.7em;
+    }
+
+    .sugestoes{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .produtos{
+        width: 400px;
+    }
+
+    .sugestoes h3{
+        font-size: 1.6em;
+    }
+
+    .sugestoes p{
+        font-size: 1.5em;
+    }
+
+    .button-2 a{
+        font-size: 2.2em;
+        padding: 14px 22px;
+    }
+    
+    .textSuporte{
+        font-size: 1.7em;
+    }
+
+    .imagemSuporte{
+        width: 450px;
+    }
+
+    .footer span{
+        font-size: 1.9em;
+    } 
+
+    .escritorio h3{
+        font-size: 2.4em;
+    }
+
+    .escritorio p{
+        font-size: 1.9em;
+    }
+
+    .social h3{
+        font-size: 2.4em;
+    }
+
+    .social i{
+        font-size: 3.4em;
+        margin: 0 2.5rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .titulo-sugestoes{
+        font-size: 1.5em;
+    }
+
+    .produtos{
+        width: 250px;
+        margin: 1.2rem;
+    }
+
+    .sugestoes h3{
+        font-size: 1.2em;
+    }
+
+    .sugestoes p{
+        font-size: 0.9em;
+    }
+
+    .button-2{
+        margin: 2.7rem 15rem;
+        font-size: 1.2em;
+    }
+
+    .textSuporte{
+        font-size: 1.1em;
+    }
+
+    .imagemSuporte{
+        width: 450px;
+    }
+
+    .footer span{
+        font-size: 1.5em;
+    }
+    
+    .escritorio h3{
+        font-size: 1.7em;
+    }
+
+    .escritorio p{
+        font-size: 1.5em;
+    }
+
+    .social h3{
+        font-size: 1.7em;
+    }
+
+    .social i{
+        font-size: 2.5em;
+        margin: 1.5rem;
+    }
+}
+

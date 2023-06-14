@@ -1,0 +1,43 @@
+.menu .bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: #fff;
+    margin: 5px auto;
+    transition: all 0.3s;
+}
+
+@media (max-width:767px) {
+    .nav{
+        padding: 18px 20px;
+    }
+    .menu{
+        display: block;
+    }
+    .menu.ativo .bar:nth-child(1){
+        transform:  translateY(8px) rotate(45deg);
+    }
+    .menu.ativo .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .menu.ativo .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        width: 70%;
+        height: 100%;
+        flex-direction: row;
+        gap: -10px;
+        transition: 0.3s;
+    }
+    .nav-menu.ativo{
+        right: 0;
+    }
+    .nav-item{
+        margin: 16px 0;
+    }
+}
